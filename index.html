@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyrun Society | Linktree</title>
+    <!-- Tailwind CSS untuk desain cepat & responsif -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            font-family: 'Inter', sans-serif;
+        }
+        .link-card {
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .link-card:hover {
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, 1);
+            color: #0f172a;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+        }
+        .profile-img {
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="text-white min-h-screen flex flex-col items-center py-12 px-4">
+
+    <!-- Profile Section -->
+    <div class="flex flex-col items-center mb-10 text-center">
+        <!-- Foto Profil Skyrun Society -->
+        <div class="profile-img w-28 h-28 bg-[#0a0f1a] rounded-full mb-4 flex items-center justify-center border-2 border-slate-700 overflow-hidden">
+            <img src="https://files.oaiusercontent.com/file-5a569ac5-fa57-4252-9669-864a036df725?se=2024-04-10T11%3A13%3A11Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D0f319958-958b-491c-b565-5b4d306b8c8d.webp&sig=G0p00lY7l0qY7l0qY7l0qY7l0qY7l0qY7l0qY7l0qY8%3D" 
+                 alt="Logo Skyrun Society" 
+                 class="w-full h-full object-cover">
+        </div>
+        <h1 class="text-2xl font-bold tracking-tight">Skyrun Society</h1>
+        <p class="text-slate-400 text-sm mt-1">Curated Running & Lifestyle Footwear</p>
+        <div class="mt-2 px-3 py-1 bg-slate-800 rounded-full text-[10px] uppercase tracking-widest text-slate-300 border border-slate-700">
+            Limited Pair — No Restock
+        </div>
+    </div>
+
+    <!-- Links Section -->
+    <div class="w-full max-w-md space-y-4">
+        
+        <!-- WhatsApp Link Otomatis -->
+        <a href="https://wa.me/6282328599971?text=Halo%20Skyrun%20Society%2C%20saya%20tertarik%20dengan%20koleksi%20Sepatu%20-nya.%20Apakah%20masih%20tersedia%3F" 
+           target="_blank"
+           class="link-card block w-full border border-slate-700 py-4 px-6 rounded-2xl text-center font-medium text-lg">
+            Order via WhatsApp
+        </a>
+
+        <!-- Instagram Feed -->
+        <a href="https://instagram.com/skyrun.society" 
+           target="_blank"
+           class="link-card block w-full border border-slate-700 py-4 px-6 rounded-2xl text-center font-medium text-lg">
+            Instagram Catalog
+        </a>
+
+        <!-- Shopee / Marketplace -->
+        <a href="#" 
+           target="_blank"
+           class="link-card block w-full border border-slate-700 py-4 px-6 rounded-2xl text-center font-medium text-lg text-slate-400">
+            Shop on Shopee (Coming Soon)
+        </a>
+
+        <!-- Testimonial / Legit Check -->
+        <a href="#" 
+           target="_blank"
+           class="link-card block w-full border border-slate-700 py-4 px-6 rounded-2xl text-center font-medium text-lg text-slate-400">
+            Legit Check & Testimoni
+        </a>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-auto pt-16 text-slate-500 text-[10px] uppercase tracking-widest">
+        Est. 2024 &bull; Skyrun Society
+    </footer>
+
+</body>
+</html>
